@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ImcComponentComponent } from './imc-component/imc-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImcComponentComponent
   ],
   imports: [
     BrowserModule

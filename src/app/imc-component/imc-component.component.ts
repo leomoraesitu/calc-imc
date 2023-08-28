@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./imc-component.component.css']
 })
 export class ImcComponentComponent {
+  num1: number=0;
+  num2: number=0;
+  resultado: number=0;
 
+  calculo(){
+    this.resultado = this.num1 / (this.num2 * this.num2)
+  }
 }
+

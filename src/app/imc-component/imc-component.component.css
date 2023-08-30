@@ -2,6 +2,7 @@ form{
     font-family: "ubuntu";    
     font-size: larger;
     color: rgb(70, 70, 70);
+    text-align: center;
 }
 
 button{
@@ -9,7 +10,7 @@ button{
     font-size: large;
     font-weight: 800;
     color: rgb(70, 70, 70);
-    margin-top: 10px;
+    margin-top: 25px;
     padding: 15px;
     border-radius: 10px;
 }
@@ -29,3 +30,8 @@ b{
     border-radius: 10px;
 }
 
+p{
+    margin-top: 30px;
+    font-size: x-large;
+    text-align: center;
+}
